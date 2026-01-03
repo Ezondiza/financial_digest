@@ -1,7 +1,7 @@
 # financial_digest/mailer/monthly.py
 
-from mailer.sender import send_email
-from mailer.templates import monthly_template
+from financial_digest.mailer.sender import send_email
+from financial_digest.mailer.templates import monthly_template
 
 def generate_monthly_summary():
     """
